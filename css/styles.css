@@ -1,0 +1,124 @@
+@media screen and (min-width: 768px) {
+    .desktop-container {
+        width: 75%;
+        margin: 0 auto;
+        padding: 0 1rem 0 1rem;
+    }
+
+    #footer-column-center {
+        border-right: 2px solid var(--paleta-cor3);
+        border-left: 2px solid var(--paleta-cor3);
+    }
+
+    .card-center {
+        border-right: 2px solid var(--paleta-cor3);
+        border-left: 2px solid var(--paleta-cor3);
+    }
+
+    .card-ant-center {
+        border-left: 2px solid var(--paleta-cor3);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #footer-column-center {
+        border-top: 2px solid var(--paleta-cor3);
+        border-bottom: 2px solid var(--paleta-cor3);
+    }
+
+    .desktop-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+:root {
+    --paleta-cor1: #1b325f;
+    --paleta-cor2: #9cc4e4;
+    --paleta-cor3: #e9f2f9;
+    --paleta-cor4: #3a89c9;
+    --paleta-cor5: #f26c4f;
+}
+
+body {
+    background-color: var(--paleta-cor3);
+    font-family: 'Inter', sans-serif;
+}
+
+#menu-principal {
+    background-color: var(--paleta-cor1);
+}
+
+.logotipo {
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--paleta-cor2);
+}
+
+.text-warning {
+    color: var(--paleta-cor5) !important;
+}
+
+.text-primary {
+    color: var(--paleta-cor1) !important;
+}
+
+.bg-primary {
+    background-color: var(--paleta-cor1) !important;
+    border: none !important;
+}
+
+.bg-danger {
+    background-color: var(--paleta-cor2) !important;
+    border: none !important;
+}
+
+.bg-warning {
+    background-color: var(--paleta-cor5) !important; ;
+}
+
+.texto-chamada {
+    color: var(--paleta-cor1);
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+#orcamento {
+    border-color: var(--paleta-cor4) !important;
+}
+
+#footer {
+    background-color: var(--paleta-cor5);
+}
+
+.btn-primary {
+    background-color: var(--paleta-cor1);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--paleta-cor4);
+}
+
+textarea {
+    padding: 5px;
+}
+
+.title.done, .visit.done {
+    color: #555;
+    text-decoration: line-through;
+}
+
+.visits, .tasks, .shopping, .register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+#login-title {
+    font-weight: 700;
+}
